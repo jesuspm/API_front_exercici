@@ -27,3 +27,63 @@
 ## EJECUCION WEB APARTADO 1:
 
 ![alt text](img/image4.png)
+
+
+
+### APARTADO 2: Consultas avanzadas.
+
+> [!NOTE]
+> ARCHIVO: main.py
+
+![alt text](img/image5.png)
+
+    -Explicación: Lo que hacemos es definir nuestro endpoint que nos devolverá el listado de alumnos pasandole por parametros el 1- order by: (que nos ordenará los resultados de manera ascendente o descendente, segun le indiquemos.) 2- contain: (Que filtrará el alumno que le especifiquemos) 3- skip: Nos permitirá omitir un numero especifico de resultados y por ultimo limit: como su propio nombre indica nos limitará el numero de resultados de la propia respuesta.
+
+    -Obtenemos los datos de nuestra funcion db_alumnes.read().
+
+## EJECUCIÓNES DEL CODIGO:
+
+> [!NOTE]
+> Orden de alumnos: Ascendente/Descendente
+
+![alt text](img/image6.png)
+
+![alt text](img/image7.png)
+
+> [!NOTE]
+> Filtrado por nombre:
+
+![alt text](img/image8.png)
+
+> [!NOTE]
+> skip y limit:
+
+![alt text](img/image9.png)
+
+![alt text](img/image10.png)
+
+
+### APARTADO 3: Carga masiva de alumnos.
+
+## PROCESO DE EJECUCION.
+> [!IMPORTANT]
+> Hay que instalar lo siguiente para poder ejecutar este tipo de tareas: pip install python-multipart
+
+    - Primero creamos nuestro documento csv y introducimos los datos.
+
+![alt text](img/image11.png)
+
+    - Luego iremos a nuestro path: 127:0.0.1:8000/docs
+
+![alt text](img/image12.png)
+
+    - Una vez cargado le daremos a execute y si todo funciona OK deberia salir lo siguiente:
+
+![alt text](img/image13.png)
+
+    - Si todo sale OK nos devolverá un STATUS 200.
+
+    
+
+
+
