@@ -24,6 +24,12 @@
 
     - Explicación: Aqui lo único que hemos hecho es cambiar la query por la actual, ya que necesitabamos acceder a otro campo de la tabla Aula usando el JOIN.
 
+> [!NOTE]
+> ARCHIVO: script.js
+![alt text](img/image14.png)
+
+    -Explicación: Lo que hacemos es añadir el codigo que habia de base pero moficiando por cada columna segun lo tengamos en nuestra bdd para que luego recoja los valores en la tabla de forma correcta.
+
 ## EJECUCION WEB APARTADO 1:
 
 ![alt text](img/image4.png)
